@@ -5,11 +5,12 @@ import SobreNosotros from './pages/SobreNosotros';
 import Productos from './pages/Productos';
 import DetalleDeProducto from './pages/DetalleDeProducto';
 import Contacto from './pages/Contacto';
-
+import Navbar from './component/Navbar';
 
 function App() {
   return (
     <div>
+      <Navbar />
       <Header />
       <main>
         <Routes>
