@@ -5,6 +5,7 @@ import './Components.css';
 import ixmenu from '../img/icon-menu-x.png';
 import { SidebarData } from './SidebarData';
 
+
 function Navbar() {
 
     const [sidebar, setSidebar] = useState(false)
@@ -17,7 +18,7 @@ function Navbar() {
                 <img src={imenu} className='icon-menu' alt="icono-menu" onClick={showSidebar} />
             </ Link>
             <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
-                <ul className='nav-menu-items'>
+                <ul className='nav-menu-items' onClick={showSidebar}>
                         <li className='navbar-toggle'>
                             <Link to='#' className='menu-bars'>
                                 <img src={ixmenu} className="icon-menu" alt="icono-menu-x" />

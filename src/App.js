@@ -6,6 +6,7 @@ import Productos from './pages/Productos';
 import DetalleDeProducto from './pages/DetalleDeProducto';
 import Contacto from './pages/Contacto';
 import Navbar from './component/Navbar';
+import './App.css';
 
 function App() {
   return (
