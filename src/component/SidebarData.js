@@ -2,7 +2,7 @@
 export const SidebarData = [
     {
         title: 'Inicio',
-        path: '/inicio',
+        path: '/',
         cName: 'nav-text'
     },
     {

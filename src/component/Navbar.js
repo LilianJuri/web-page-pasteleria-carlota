@@ -14,27 +14,39 @@ function Navbar() {
 
     return (
         <div className='navbar'>
-            < Link to='#' className='menu-link'>
-                <img src={imenu} className='icon-menu' alt="icono-menu" onClick={showSidebar} />
-            </ Link>
-            <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
-                <ul className='nav-menu-items' onClick={showSidebar}>
-                        <li className='navbar-toggle'>
-                            <Link to='#' className='menu-bars'>
-                                <img src={ixmenu} className="icon-menu" alt="icono-menu-x" />
-                            </Link>
-                        </li>
-                        {SidebarData.map((item, index) => {
-                            return (
-                                <li key={index} className={item.cName}>
-                                    <Link to={item.path} >
-                                        <span>{item.title}</span>
-                                    </Link>
-                                </li>
-                            )
-                        })} 
-                </ul>
-            </nav>
+            <div className='hiddenLinks'>
+                {SidebarData.map((item, index) => {
+                                return (
+                                    <li key={index} className="pepe" >
+                                        <Link to={item.path} >
+                                            <span>{item.title}</span>
+                                        </Link>
+                                    </li>
+                                )
+                            })} 
+                </div>
+                < Link to='#' className='menu-link'>
+                    <img src={imenu} className='icon-menu' alt="icono-menu" onClick={showSidebar} />
+                </ Link>
+                <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
+                    <ul className='nav-menu-items' onClick={showSidebar}>
+                            <li className='navbar-toggle'>
+                                <Link to='#' className='menu-bars'>
+                                    <img src={ixmenu} className="icon-menu" alt="icono-menu-x" />
+                                </Link>
+                            </li>
+                            {SidebarData.map((item, index) => {
+                                return (
+                                    <li key={index} className={item.cName}>
+                                        <Link to={item.path} >
+                                            <span>{item.title}</span>
+                                        </Link>
+                                    </li>
+                                )
+                            })} 
+                    </ul>
+                </nav>
+            
         </div>
     )
 }

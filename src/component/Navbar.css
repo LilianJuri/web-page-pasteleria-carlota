@@ -73,3 +73,20 @@
 span {
     margin-left: 16px;
 }
+
+@media  (max-width: 600px) {
+    .menu-link, .menu-bars {
+        display: none;
+    }
+
+    .hiddenLinks{
+        background-color:#8b6117;
+        color:#fdb02b;
+    }
+}
+
+@media  (min-width: 600px) {
+    .hiddenLinks {
+        display: none;
+    }
+}
