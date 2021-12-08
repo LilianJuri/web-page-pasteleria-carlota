@@ -7,7 +7,7 @@ import DetalleDeProducto from './pages/DetalleDeProducto';
 import Contacto from './pages/Contacto';
 import Navbar from './component/Navbar';
 import Banner from './component/Banner';
-import BackgroundInicio from './component/BackgroundInicio';
+import Home from './component/Home';
 import Footer from './component/Footer';
 import './App.css';
 
@@ -16,9 +16,7 @@ function App() {
     <div>
       <Banner />
       <Navbar />
-      <BackgroundInicio />
-      <Footer />
-      
+      <Home />
         <main>
           <Routes>
             <Route path='/inicio' element={<Inicio />} />
@@ -28,6 +26,7 @@ function App() {
             <Route path='/contacto' element={<Contacto />} />
           </Routes>
         </main>
+      <Footer />
     </div>
   );
 }
