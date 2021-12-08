@@ -7,6 +7,8 @@ import DetalleDeProducto from './pages/DetalleDeProducto';
 import Contacto from './pages/Contacto';
 import Navbar from './component/Navbar';
 import Banner from './component/Banner';
+import BackgroundInicio from './component/BackgroundInicio';
+import Footer from './component/Footer';
 import './App.css';
 
 function App() {
@@ -14,6 +16,9 @@ function App() {
     <div>
       <Banner />
       <Navbar />
+      <BackgroundInicio />
+      <Footer />
+      
         <main>
           <Routes>
             <Route path='/inicio' element={<Inicio />} />
