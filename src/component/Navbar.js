@@ -1,7 +1,7 @@
 import {useState} from 'react';
 import { Link } from 'react-router-dom';
 import imenu from '../img/icon-menu.png';
-import './Components.css';
+import './Navbar.css';
 import ixmenu from '../img/icon-menu-x.png';
 import { SidebarData } from './SidebarData';
 

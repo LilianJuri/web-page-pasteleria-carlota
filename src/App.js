@@ -6,11 +6,13 @@ import Productos from './pages/Productos';
 import DetalleDeProducto from './pages/DetalleDeProducto';
 import Contacto from './pages/Contacto';
 import Navbar from './component/Navbar';
+import Banner from './component/Banner';
 import './App.css';
 
 function App() {
   return (
     <div>
+      <Banner />
       <Navbar />
         <main>
           <Routes>
