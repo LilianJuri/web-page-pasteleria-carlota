@@ -1,10 +1,13 @@
 import './Inicio.css';
-import backgroundImage from '../img/background-inicio.jpg';
+
 
 const Inicio = () => {
     return(
-        <div>
-            <img src={backgroundImage} className='background-image-inicio' alt="img-banner-top" />
+        <div className='background-image-inicio'>
+            <div className="text-inicio">
+                <h1 className >Pasteleria Carlota</h1>
+                <p class>La pasteleria mas dulce y copada de todas</p>
+            </div>
         </div>
     )
 }

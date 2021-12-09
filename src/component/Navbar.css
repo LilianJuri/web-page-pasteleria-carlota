@@ -1,3 +1,5 @@
+
+
 .icon-menu{
     height: 50px;
     width: 50px;
@@ -18,7 +20,7 @@
 }
 
 .nav-menu{
-    background-color: #ad069f;
+    background-color: #ffc560;
     width: 250px;
     height: 100vh;
     display: flex;
@@ -55,7 +57,7 @@
 }
 
 .nav-text a:hover {
-    background-color: #eb84e2;
+    background-color: #fdb02b;
 }
 
 .nav-menu-items {
@@ -74,6 +76,20 @@ span {
     margin-left: 16px;
 }
 
+.hiddenLinks{
+    display:inline-block;
+    text-decoration:none;
+}
+.hiddenLinks a{
+    text-decoration:none;
+    color:black;
+    list-style:none;
+}
+
+.hiddenLinks a:hover {
+    background-color: #fdb02b;
+}
+
 @media  (max-width: 600px) {
     .menu-link, .menu-bars {
         display: none;
@@ -82,6 +98,7 @@ span {
     .hiddenLinks{
         background-color:#8b6117;
         color:#fdb02b;
+        text-decoration:none;
     }
 }
 
