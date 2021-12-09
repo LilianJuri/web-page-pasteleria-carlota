@@ -1,12 +1,55 @@
-.background-image-inicio{
+.inicio{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+}
 
-    background-image: url('../img/background-inicio.jpg');
-    background-size: 1350px;
-    width: 1350px;
+.header-container{
     height: 900px;
+    width: auto;
 }
 
-.text-inicio{
-    position: relative;
-    textAlign: left;
+.header-container button {
+    color: #fdb02b;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+    justify-content: center;
+    background-color: black;
+    height: 50px;
+    width: 180px;
+    text-decoration: none;
+    font-size: 20px;
 }
+
+.header-container button:hover {
+    background-color:#7c1313;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.text-conteiner{
+    display: block;
+    height: 100px;
+    text-align: right;
+    margin-top: 100px;
+    margin-right: 50px;
+    padding: 10px;
+}
+
+.text-conteiner h1{
+    margin: 10px;
+    font-size: 65px;
+}
+
+
+.text-conteiner p{
+    margin: 10px;
+    font-size: 20px;
+}
+
+/* style={{ margin: 10px; }} */
