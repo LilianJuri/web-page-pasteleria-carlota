@@ -2,10 +2,39 @@
     background-color: black;
     width: 100%;
     height: 150px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
 }
 
 .icon-footer{
     height: 50px;
     width: 50px;
-    margin: 15px 0px 0px 10px;
+    margin: 15px 15px 0px 10px;
+}
+.right-side{
+    margin-top:20px;
+}
+
+.right-side h2{
+    color: white;
+}
+
+.center-side{
+    color:white;
+    margin: 20px 300px 0px 300px;
+}
+
+.center-side h2{
+    margin-bottom: 10px;
+}
+
+.left-side{
+    margin-top:20px;
+}
+
+.title-footer{
+    font-size: 25px;
+    margin-left: 40px;
+    color: white;
 }
