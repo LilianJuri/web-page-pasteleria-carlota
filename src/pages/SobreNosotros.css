@@ -1,0 +1,13 @@
+.sobre-nosotros{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-container{
+    height: 900px;
+    width: auto;
+}
