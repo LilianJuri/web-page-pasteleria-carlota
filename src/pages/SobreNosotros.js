@@ -1,12 +1,12 @@
 
-import bsobreNosotros from "../img/background-sobre-nosotros.jpg";
+
 import './SobreNosotros.css';
 
 const SobreNosotros = () => {
     return(
         <div className='sobre-nosotros'>
-        <div className="header-container" style={{ backgroundImage: `url(${bsobreNosotros})`}}>
-            <div className="text-conteiner" >
+        <div className="header-container-sn" >
+            <div className="text-conteiner-sn" >
                 <h1>Sobre Nosotros</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Cras ac magna quis metus molestie luctus. Duis facilisis 
