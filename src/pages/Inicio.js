@@ -7,7 +7,7 @@ const Inicio = () => {
     return(
             <div className='inicio'>
                 <div className="header-container-i" >
-                    <div className="text-conteiner" >
+                    <div className="text-conteiner-i" >
                         <h1>Pasteleria Carlota</h1>
                         <p>La pasteleria mas dulce y copada de todas </p>
                         <p>e insoportablemente densa</p>
