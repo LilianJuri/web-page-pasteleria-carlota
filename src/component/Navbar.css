@@ -77,13 +77,16 @@ span {
 }
 
 .hiddenLinks{
-    display:inline-block;
+    display: flex;
     text-decoration:none;
+    list-style:none;
+    justify-content: center;
+    font-size: 20px;
 }
 .hiddenLinks a{
     text-decoration:none;
-    color:black;
-    list-style:none;
+    color:#000000;
+    background-color:#fda409;
 }
 
 .hiddenLinks a:hover {
@@ -95,11 +98,6 @@ span {
         display: none;
     }
 
-    .hiddenLinks{
-        background-color:#8b6117;
-        color:#fdb02b;
-        text-decoration:none;
-    }
 }
 
 @media  (min-width: 600px) {

@@ -9,10 +9,17 @@
 
 .title-banner{
     display: block;
-    height: 3em;
-    text-align: right;
-    margin-top: 90px;
-    margin-right: 50px;
+    position: absolute;
+    top: 75px;
+    left: 1160px;
     font-size: 30px;
     color: rgb(109, 39, 6);
+}
+
+
+@media  (max-width: 1250px) {
+    .title-banner {
+        display: none;
+    }
+
 }
