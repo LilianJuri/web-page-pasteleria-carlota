@@ -4,7 +4,6 @@ import './SobreNosotros.css';
 
 const SobreNosotros = () => {
     return(
-        <div className='sobre-nosotros'>
         <div className="header-container-sn" >
             <div className="text-conteiner-sn" >
                 <h1>Sobre Nosotros</h1>
@@ -27,7 +26,6 @@ const SobreNosotros = () => {
                     </p>
             </div>
         </div>
-    </div>
     )
 }
 
